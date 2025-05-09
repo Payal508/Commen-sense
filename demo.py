@@ -49,7 +49,6 @@ def get_comments(youtube, video_id, next_view_token):
                 all_replies.append(reply['snippet']['textDisplay'])
 
             # check for more replies
-            
             while "nextPageToken" in replies_list:
                 token_reply = replies_list['nextPageToken']
                 # get next set of 100 replies
