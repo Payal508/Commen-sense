@@ -1,0 +1,1 @@
+wp-config-sample.php
